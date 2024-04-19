@@ -23,7 +23,7 @@ double quizAverage(std::vector<float> &quizGrades)
                 tempNum += quizGrades[i];
         }
     }
-    std::cout << "Your quiz grade is: " << tempNum << std::endl;
+    std::cout << "Your quiz grade average is: " << tempNum << std::endl;
 
     return tempNum;
 }

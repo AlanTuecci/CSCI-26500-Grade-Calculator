@@ -21,7 +21,7 @@ bool gradeInput(std::vector<float> &quizGrades, float& finalExamGrade)
     input = "";
     clearTerminal();
 
-    std::cout << "Please enter your quiz grades exactly as they appear on gradescope." << std::endl;
+    std::cout << "Please enter your quiz grades exactly as they appear on gradescope [If your grade is '7.0/10.0' then input '7.0']." << std::endl;
     std::cout << "If you do not have a quiz grade, enter 'x'." << std::endl;
     std::cout << "\t| Grade" << std::endl;
     std::cout << "----------------------------" << std::endl;
@@ -42,7 +42,7 @@ bool gradeInput(std::vector<float> &quizGrades, float& finalExamGrade)
     input = "";
 
     std::cout << std::endl;
-    std::cout << "Please enter your final exam grade." << std::endl;
+    std::cout << "Please enter your final exam grade exactly as it appears on gradescope [If your grade is '70.0/100.0' then input '7.0']." << std::endl;
     std::cout << "If you do not have a final exam grade, enter 'x'." << std::endl;
     std::cout << "\t\t| Grade" << std::endl;
     std::cout << "----------------------------" << std::endl;
